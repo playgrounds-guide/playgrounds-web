@@ -12,7 +12,7 @@ class Map extends Component {
   render() {
     return (
       <GoogleMapReact
-        bootstrapURLKeys={'AIzaSyDNRiwpqNZy8a3zLCN8sdufCgVow2MWzmo'}
+        apiKey={'AIzaSyDNRiwpqNZy8a3zLCN8sdufCgVow2MWzmo'}
         defaultCenter={this.props.center}
         defaultZoom={this.props.zoom}
       >
