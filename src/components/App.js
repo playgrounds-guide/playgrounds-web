@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import Map from './Map'
+import Map from './Map';
 
 class App extends Component {
   render() {
     return (
-      <div style={{width: 800, height: 800}}>
+      <div style={{width: '100vw', height: '100vh'}}>
           <Map/>
       </div>
     );
