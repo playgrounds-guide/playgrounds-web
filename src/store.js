@@ -1,6 +1,6 @@
 import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
-import playgrounds from './playgrounds';
+import playgrounds from './state/playgrounds';
 
 const reducer = combineReducers({
   playgrounds
