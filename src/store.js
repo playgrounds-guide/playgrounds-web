@@ -1,9 +1,11 @@
 import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
+import { reducer as tooltip } from 'redux-tooltip';
 import playgrounds from './state/playgrounds';
 
 const reducer = combineReducers({
-  playgrounds
+  playgrounds,
+  tooltip
 });
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
